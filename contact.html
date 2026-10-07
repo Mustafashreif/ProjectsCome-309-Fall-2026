@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact3</title>
+</head>
+<body>
+    <header>
+        <h1 style="color: blue;">Contact Page</h1>
+    </header>
+    <hr>
+    <br>
+         <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            
+        </nav>
+    <main>
+        <form action="#" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text"  required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="country">Country:</label>
+            
+            <select name="country" id="country">
+              Country  <option value="">Select Country</option>
+                <option value="eg">Egypt</option>
+                <option value="us">United States</option>
+                <option value="ca">Canada</option>
+                <option value="uk">United Kingdom</option>
+            </select>
+            </div>
+            <div>
+                <label>PhoneNumber:</label>
+                <input type="phone"  required>
+            </div>
+            <div>
+                <label>Age:</label>
+                <input type="number"  required>
+            </div>
+            <div>
+                <label>Date:</label>
+                <input type="date"  required>
+            </div>
+            
+          Male <input type="radio" id="male" name="gender" value="male" required>
+          <br>
+         Female<input type="radio" id="female" name="gender" value="female" required>
+<input type="checkbox">Junior programming
+<input type="checkbox">sporting
+<input type ="checkbox">Senior Programming
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="2" cols="30" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+</body>
+</html>
